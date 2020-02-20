@@ -1,0 +1,126 @@
+body{
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+header{
+	background: #11427d;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+.logo-section img{
+	width: 10%;
+	display: inline-block;
+}
+.logo-section{
+	width: 100%;
+	margin-top: 4px;
+}
+
+nav{
+	float: right;
+	margin-top: -69px;
+	margin-right: : -135px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0e0101;
+    text-transform: uppercase;
+    margin-left: 17px;
+    font-size: 29px;
+    padding: 16px 16px;
+}
+
+nav a:hover{
+	background: rgb(21, 25, 143);
+	border-radius: 13px;
+}
+
+section.banner-section{
+	background-image: url("images/background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	padding: 216px;
+}
+
+section.banner-section h1 {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    border: 1px solid #000000;
+    background: #c7d45f80;
+    color: #69511b;
+    padding: 40px 5px;
+}
+
+section.aboutus-section{
+	background-image: url("images/background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+}
+
+section.aboutus-section h2 {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 60px;
+}
+
+div.sec2-content {
+    display: inline-block;
+    width: 39%;
+    font-size: 40px;
+}
+
+div.sec2-content img{
+ 	float: right;
+	height: 300px;
+}
+
+div.sec2-content p{
+	padding: 74px;
+	float: left;
+	text-align: left;
+	
+}
+
+section.service-section h3{
+	font-size: 30px;
+	margin-top: 0px;
+	text-align: center;
+	color: #ffffff;
+}
+
+div.sec3-content {
+    display: inline-block;
+    width: 33%;
+    border-left: 1px solid black;
+    text-align: center;
+    color: #100f0f;
+    font-size: 500px;
+}
+
+div.sec3-content p{
+	text-align: left;
+	font-size: 20px;
+	
+}
+
+section.service-section{
+	background-image: url("images/background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+}
+
