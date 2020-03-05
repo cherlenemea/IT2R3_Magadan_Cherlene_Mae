@@ -1,0 +1,144 @@
+body{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+a {
+    padding: 31px;
+    font-size: 29px;
+    color: white;
+    float: right;
+}
+nav .main {
+    text-decoration: none;
+    color: rgb(7,22,48);
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 15px
+}
+nav {
+    float: right;
+    margin-top: 29px;
+    margin-right: -388px;
+}
+header {
+    background: rgb(7,22,48);
+}
+img {
+    width: 100%;
+    margin-top: 6px;
+}
+.logo-section {
+    width: 220px;
+    display: inline-block;
+}
+.logo-section img {
+    width: 62%;
+    margin-top: 4px;
+    margin-left: -306px;
+}
+nav .main:hover {
+    background: cadetblue;
+    border-radius: 70px;
+}
+section.banner-section {
+    background-image: url(image/background2.jpg);
+    padding: 374px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    opacity: 0.9;
+}
+section.banner-section h1 {
+    text-align: center;
+    font-size: 60px;
+    padding: 41px;
+    text-transform: uppercase;
+    border: 3px solid white;
+    background: #0b92f12e;
+    color: #fdffff;
+} 
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+section.aboutus-section{
+    background-color: rgb(7,22,48);
+    padding: 220px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    opacity: 0.9;
+}
+section.aboutus-section h2 {
+    margin-top: -101px;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 34px;
+    background: #071630;
+    border: solid 3px  white;
+    color: #fdffff;
+            
+}
+div.section2-content {
+    float: left;
+    height: 230px;
+    width: 50%;
+    background: #1d195f91;
+    color: #fdffff;
+}
+div.section2-content img {
+    float: right;
+    margin-top: -10px;
+    height: 250px;
+}
+section.service-section h3 {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 3px solid white;
+    background: #1d195f91;
+    color: #fdffff;
+}
+div.section3-content {
+    display: inline-block;
+    margin-left: 22px;
+    width: 30%;
+    border-left: 1px solid white;
+    text-align: center;
+    color: white;
+    background: #1d195f91;
+}
+div.section3-content p{
+    text-align: left;
+    font-size: 20px;    
+}
+nav.buttons a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: white;
+    padding: 0px;
+}
+nav.buttons {
+    margin-right: 450px;
+}
+nav.buttons:hover {
+    background: cadetblue;
+    border-radius: 70px;
+}
+section.service-section {
+    background-image: url("image/imageone.jpeg");
+    padding: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    opacity: 0.9;
+}
